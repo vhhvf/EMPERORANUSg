@@ -4793,13 +4793,13 @@ replay('Broadcast Sent !')
 break    
 
 
-case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
+case 'help': case 'h': case 'menu': case 'الاوامر': case 'listmenu':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
       
- const helpmenu =`Hii *${pushname}*,
+ const helpmenu =`مرحبا 👋 *${pushname}*,
 
-I am *chiku*, a bot  deploy by 🦋⃟≛⃝𝐀𝐘𝐔𝐒𝐇⃟≛⃝
+I am *chiku*, هلا بك انا بوت🦋⃟≛𓀂𝑬𝑴𝑷𝑬𝑹𝑶𝑹𝑨𝑵𝑼𝑺𓀋≛⃝
 
    ♤《《╼━╼━━━━━━━━━━━》》♤
    
@@ -5034,15 +5034,15 @@ I am *chiku*, a bot  deploy by 🦋⃟≛⃝𝐀𝐘𝐔𝐒𝐇⃟≛⃝
 🍁 Then type " *${prefix}nsfwmenu* " to get full list of NSFW commands.
 
  『  *${global.BotName}*  』
- Powered by: *Ayush*
+ Powered by: *الإمبراطور انوس*
 `
 
 
     let buttonshelpm = [
 
-    {buttonId: `.owner`, buttonText: {displayText: 'Bot Owner🧞‍♂️'}, type: 1},
+    {buttonId: `.owner`, buttonText: {displayText: 'مطور البوت🧞‍♂️'}, type: 1},
 
-    {buttonId: `.nsfw on`, buttonText: {displayText: 'NSFW💦'}, type: 1}
+    {buttonId: `.nsfw on`, buttonText: {displayText: 'عمك انوس💦'}, type: 1}
     ]
                 let buttonMessage = {
                     video:fs.readFileSync('./system/miku2.mp4'),gifPlayback:true,
@@ -5068,7 +5068,7 @@ case '':
  const needhelpmenu = `Did you mean *${prefix}help*.`
      
          let butRun = [
-                {buttonId: `.help`, buttonText: {displayText: 'Help'}, type: 1}
+                {buttonId: `.help`, buttonText: {displayText: 'الأوامر🎭'}, type: 1}
                 ]
                 let buttonMessage = {
                     video:fs.readFileSync('./system/miku.mp4'),gifPlayback:true,
@@ -5163,7 +5163,7 @@ case 'add':{
         if (isBanChat) return reply(mess.bangc)
         if (!m.isGroup) return replay(mess.grouponly)
     reply(`Running repl....Please wait until repl.it responds...`)						
-    var replqr =  await getBuffer(`https://Chiku-QR.ayushpandey954.repl.co`)
+    var replqr =  await getBuffer(`https://replit.com/@EMPERORANUS/vvvvvvvvv`)
                                var qrbutton = [
             {buttonId: `.qr`, buttonText: {displayText: `Re-run Repl`}, type: 1}
             ]
